@@ -1,18 +1,21 @@
 <template>
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <AddCount/>
+  <LoginPage/>
   
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import AddCount from './components/Add.vue';
+import LoginPage from './components/Login.vue';
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     AddCount,
+    LoginPage
   
   }
 }
